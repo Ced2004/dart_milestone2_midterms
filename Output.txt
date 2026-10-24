@@ -1,1 +1,32 @@
+================================================================
+       NTC PC16 MILESTONE 2: DART LOGIC PRACTICAL EXAM          
+================================================================
+
+--- 1. PROCESSING ASYNCHRONOUS FLEET TRANSACTIONS ---
+ID: TJ-101 | Route: Quiapo - Espana | Capacity: 18 passengers
+   [PAYMENT SYSTEM]: Processing payment for 3 passenger(s) on TJ-101...
+   -> [SUCCESS]: Payment Success! Amount Paid: P49.50 (3 passengers x P16.50)
+   -> [ERROR CAUGHT]: FormatException: Invalid trip parameters: Distance (-2 km) and Passengers (4) must be positive.
+   [PAYMENT SYSTEM]: Processing payment for 5 passenger(s) on TJ-101...
+   -> [SUCCESS]: Payment Success! Amount Paid: P100.00 (5 passengers x P20.00)
+   [GPS SYSTEM]: Connecting to satellite network for TJ-101...
+   [GPS SUCCESS]: Coordinates synced live for TJ-101!
+   [MAINTENANCE]: Engine oil change and brake pad check completed for TJ-101.
+   Total Revenue Earned: P149.50
+----------------------------------------------------------------
+
+ID: EJ-202 | Route: Cubao - Divisoria | Capacity: 24 passengers
+   Details: Modern E-Jeepney | Airconditioned: true
+   [PAYMENT SYSTEM]: Processing payment for 3 passenger(s) on EJ-202...
+   -> [SUCCESS]: Payment Success! Amount Paid: P63.00 (3 passengers x P21.00)
+   -> [ERROR CAUGHT]: FormatException: Invalid trip parameters: Distance (-2 km) and Passengers (4) must be positive.
+   [PAYMENT SYSTEM]: Processing payment for 5 passenger(s) on EJ-202...
+   -> [SUCCESS]: Payment Success! Amount Paid: P125.00 (5 passengers x P25.00)
+   [MAINTENANCE]: Lithium battery cell diagnostic and AC service done for EJ-202.
+   Total Revenue Earned: P188.00
+----------------------------------------------------------------
+
+================================================================
+         MILESTONE 2 PRACTICAL EXAM EXECUTION COMPLETE          
+================================================================
 
